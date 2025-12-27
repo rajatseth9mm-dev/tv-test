@@ -1,1 +1,47 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* BODY */
+body {
+  background-color: #0b0e11;
+  color: #d1d4dc;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+/* TOP TOOLBAR */
+#toolbar {
+  height: 48px;
+  background: #131722;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  border-bottom: 1px solid #2a2e39;
+}
+
+#toolbar .title {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+#toolbar button {
+  background: #1e222d;
+  color: #d1d4dc;
+  border: 1px solid #2a2e39;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#toolbar button:hover {
+  background: #2a2e39;
+}
+
+/* CHART AREA */
+#chart {
+  width: 100vw;
+  height: calc(100vh - 48px);
+}
